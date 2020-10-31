@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	min-width: 324px;
+	display: flex;
+	flex-direction: column;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 35px;
+}
+
+.page-header {
+	padding: 45px 36px;
+}
+
+main {
+	margin-top: 50px;
+	flex: 1 0 auto;
+}
+
+h1 {
+	margin-bottom: 35px;
+	text-align: center;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 47px;
+	color: #7F7F97;
+}
+
+.login-form {
+	margin: 0 auto;
+	width: 324px;
+	height: 249px;
+}
+
+.login:first-child {
+	margin-bottom: 21px;
+}
+
+.login:last-child {
+	margin-top: 36px;
+}
+
+.login {
+	padding: 15px 9px 14px 9px;
+	width: 324px;
+	height: 64px;
+	border-radius: 10px;
+	border: 1px solid #E7E8EB;
+	box-sizing: border-box;
+	font-size: 30px;
+	line-height: 35px;
+}
+
+.login:hover {
+	border: 1px solid #BBBBD7;
+	box-shadow: none;
+}
+
+.login:focus {
+	outline: none;
+	border-color: #BBBBD7;
+}
+
+.login-btn {
+	background-color: #E7E7F1;
+	color: #3C3E3C;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.page-footer {
+	display: flex;
+	flex-shrink: 0;
+	justify-content: space-between;
+	width: auto;
+	padding: 30px 52px 19px 36px;
+	background-color: #3B3B50;
+	color: #D9DBE1;
+}
+
+.corp-name {
+	align-self: flex-end;
+}
+
+.right-col {
+	display: inline-block;
+	text-align: right;
+}
+
+.right-col a {
+	text-decoration: none;
+	color: #D9DBE1;
+}
+
+.social {
+	margin-top: 21px;
+	margin-right: 9px; 
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+}
+
+.social:last-child {
+	margin-right: 0;
+}
+
+.social-fb {
+	background: url('img/fb.png') no-repeat;
+}
+
+.social-tw {
+	background: url('img/tw.png') no-repeat;
+}
