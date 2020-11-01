@@ -3,8 +3,6 @@ let tabsNav = nav.querySelectorAll("li");
 let tabs = document.querySelectorAll(".tab");
 let selectedTab = tabsNav[0].dataset.nav;
 
-console.log(tabsNav);
-
 window.onload = function () {
 	tabsNav[0].classList.add("selected");
 	hiddenClass();
