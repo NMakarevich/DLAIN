@@ -18,11 +18,11 @@
 					<li data-nav="adresses">Адреса</li>
 					<li data-nav="map">Карта</li>
 					<li data-nav="reports">Отчеты</li>
-					<li data-nav="upload">Загрузить</li>
+					<li class="selected" data-nav="upload">Загрузить</li>
 				</ul>
 			</nav>
 
-			<section class="adresses">
+			<section class="adresses hidden">
 				
 			</section>
 
@@ -34,13 +34,11 @@
 				
 			</section>
 
-			<section class="upload hidden">
+			<section class="upload">
 				<form method="post">
 					<span>Перетащите файлы сюда</span>
-					<label class="button upload-btn">
-						Выберите файлы
-						<input  type="file" name="upload-file">
-					</label>
+					<input  type="file" name="upload-file" id="upload-btn">
+					<label for="upload-btn" class="button upload-btn"><span>Выберите файлы</span></label>
 				</form>
 			</section>
 
