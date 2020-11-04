@@ -23,7 +23,20 @@
 			</nav>
 
 			<section class="tab adresses hidden">
-				
+				<form name="search">
+					<input type="search" name="search-field" placeholder="Строка поиска">
+				</form>
+				<div class="wrapper">
+					<div class="table">
+						<div class="row">
+							<div class="cell">Район</div>
+							<div class="cell">Улица</div>
+							<div class="cell">Дом</div>
+							<div class="cell">Проверяющий</div>
+							<div class="cell">Дата ОР</div>
+						</div>
+					</div>
+				</div>
 			</section>
 
 			<section class="tab map hidden">
@@ -54,5 +67,6 @@
 			</div>
 		</footer>
 		<script src="js/changeTabs.js"></script>
+		<script src="js/makeTable.js"></script>
 	</body>
 </html>
