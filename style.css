@@ -148,7 +148,7 @@ section {
 .adresses .wrapper {
 	position: relative;
 	margin: 0 auto;
-	width: 1256px;
+	max-width: 1256px;
 	height: 416px;
 	overflow-y: scroll;
 }
@@ -175,7 +175,7 @@ section {
 }*/
 
 .adresses .table-container {
-	width: 1224px;
+	max-width: 1224px;
 	padding-left: 32px;
 	padding-right: 24px;
 	background-color: #F8F8FC;
@@ -185,7 +185,7 @@ section {
 
 .adresses .table {
 	display: table;
-	width: 1168px;
+	max-width: 1168px;
 }
 
 .table .row {
